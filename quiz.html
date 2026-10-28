@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Halloween Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="quiz-card">
+
+      <div class="quiz-header">
+        <div class="header-top">
+          <span class="quiz-counter">Вопрос 1 из 10</span>
+          <div class="timer-badge">
+            <span>⏳</span>
+            <span id="timer-text">02:00</span>
+          </div>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill"></div>
+        </div>
+      </div>
+
+      <h2 class="quiz-question">Question text will be here</h2>
+
+      <div class="quiz-options">
+        <button class="option-btn"><span class="option-letter">A</span><span class="option-text">Option 1</span></button>
+        <button class="option-btn"><span class="option-letter">B</span><span class="option-text">Option 2</span></button>
+        <button class="option-btn"><span class="option-letter">C</span><span class="option-text">Option 3</span></button>
+        <button class="option-btn"><span class="option-letter">D</span><span class="option-text">Option 4</span></button>
+      </div>
+
+      <div class="quiz-footer">
+        <button class="btn-primary next-btn">Next</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
